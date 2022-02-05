@@ -1,34 +1,13 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Domain Working?
+A ideia desse projeto consiste em criar uma página de consulta de domínios, que irá mostrar alguns dados e, além disso, a ideia princial é realizar uma requisição para saber se o domínio está ativo e pensei até, se possível, mostrar um "foto", igual a vercel mostra. 
 
-## Getting Started
+## Desenvolvimento do Projeto
+Além da ideia acima, para criar um direcionamento para o projeto e não apenas "criar algo", o intuito desse projeto é estudar mais, utilizar bibliotecas e assim por diante, sem me basear em um projeto de curso ou algo parecido. Quero desenvolver algo seguindo um pouco mais o "natural" do coisa, indo na documentação, vendo como que funciona e ir criando conforme eu sentir vontade. Abaixo, vou tentar explicar documentando, o que foi instalado e porque eu decidi instalar certa biblioteca.
 
-First, run the development server:
+## Inicialização do Projeto:
+- Next.js: Inicializei o next conforme a documentação, com a ultima versão;
+- Eslint e PropTypes: Achei necessário instalar, pois já estou acostumado por utilizar bastante no Bootcamp.
+- Material UI: Para esse projeto, gostaria de utilizar uma biblioteca de componentes. Antes do React, eu sempre gostei de utilizar o Bootstrap em projetos.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## API Utilizada
+Para esse projeto, vou utilizar a API do registro: https://registro.br/rdap/
